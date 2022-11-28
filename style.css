@@ -1,7 +1,27 @@
-.d-block {
-
-    height: auto;
-  
-    max-width: 100%;
-  
+/* .d-block-4x3 {
+    @include media-breakpoint-up(md) {
+      --bs-aspect-ratio: 50%; // 2x1
+    }
   }
+
+
+   .ratio-4x3 {
+    @include media-breakpoint-up(md) {
+      --bs-aspect-ratio: 50%; // 2x1
+    }
+  }  */
+  
+  .carousel img {
+    object-fit: cover;
+    object-position: center; 
+    height: 90vh;
+    overflow: hidden;
+   }  
+
+   .w3-container {
+	padding:128px 16px
+}
+
+.fa-anchor,.fa-coffee {
+	font-size:200px;
+}
