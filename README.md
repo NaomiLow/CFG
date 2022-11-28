@@ -1,2 +1,3 @@
-# CFG
-CFG G5
+# CFG read me document
+
+
