@@ -11,17 +11,21 @@
     }
   }  */
   
-  .carousel img {
+.carousel img {
     object-fit: cover;
     object-position: center; 
     height: 90vh;
     overflow: hidden;
    }  
 
-   .w3-container {
+.w3-container {
 	padding:128px 16px
 }
 
 .fa-anchor,.fa-coffee {
 	font-size:200px;
+}
+
+.fa fa-linkedin{
+  padding-right: 10px;
 }
