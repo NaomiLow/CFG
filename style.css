@@ -9,3 +9,11 @@
 .fa-anchor,.fa-coffee {
 	font-size:200px;
 }
+
+
+#submitButton{
+  color: #a83291;
+  font-weight: bold;
+  background-color: #f5c9ec;
+  border-style: none;
+}

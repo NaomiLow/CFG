@@ -39,10 +39,41 @@
     </nav>
 
     
+    <h2 id="pageTitle">Want to be friends with Favour's cat or Charlotte's dog? Apply now for friendship</h2>
+    <div id=contactPage>
+      <form id="submissionform" method="post" action="submit_data">
+        <fieldset style="width:500px">
+          <p id=asterisk>
+                 Required fields are marked with *
+          </p><br>
+          <label for="first_name" class="formLabel">*First name:</label>
+          <input type="text" id="first_name" name="first_name" placeholder="First name" required><br><br>
+          <label for="last_name" class="formLabel">*Last name </label>
+          <input type="text" id="last_name" name="last_name" placeholder="Last name" required><br><br>
+          <label for="email" class="formLabel">*Email:</label>
+          <input type="email" placeholder="Email address" id="email" name="email" required><br><br>
+            <p>Topics of interest:</p>
+            <div id="formCheckboxes">
+              <input type="checkbox" id="newsletters" name="newsletters" value="Newsletters" required>
+              <label for="newsletters">*Animal friendship</label><br>
+              <input type="checkbox" id="latestResearch" name="latestResearch" value="Latest Research">
+              <label for="latestResearch">Gluten free pet food</label><br>
+              <input type="checkbox" id="climateProtests" name="climateProtests" value="Climate Protests">
+              <label for="climateProtests">Multivitamins</label><br>
+              <input type="checkbox" id="Volunteering" name="Volunteering" value="Volunteering">
+              <label for="Volunteering">Volunteering</label><br><br>
+            </div>
+          <p><label for="comments" class="formLabel">Friendship application statement:</label><p>
+          <textarea id="comments" name= "comments" rows="10" cols="20" placeholder="Tell us why you should be the successful Friend Applicant!"></textarea><br><br>
+          <button id="submitButton">Apply for Friendship</button>
+        </fieldset>
+      </form>
+      </div>
+
 
     <!-- Footer -->
     <a name="Contact"></a>
-    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center w3-pale-yellow">
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center w3-pale-yellow fixed-bottom">
         <h4>Contact Us</h4>
        
         <a href="https://www.linkedin.com/in/favourekengwu/" class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
