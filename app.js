@@ -4,7 +4,7 @@ submit.addEventListener("click", function(){
     if(!isValid){
         e.preventDefault();    //stop form from submitting
     }
-    else{
+    if (isValid){
     form.style.visibility = 'hidden';
     }
 });
