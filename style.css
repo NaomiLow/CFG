@@ -10,10 +10,59 @@
 	font-size:200px;
 }
 
+/*
+
+STAY UPDATED
+
+*/
 
 #submitButton{
+	margin-left: 332px;
+	margin-bottom: 20px;
+	width: 7em;  height: 2em;
   color: #a83291;
   font-weight: bold;
   background-color: #f5c9ec;
   border-style: none;
+	font-size: 20px;
+}
+
+#formCheckboxes{
+  border-color: #a83291;
+}
+
+#pageTitle{
+	padding-top: 90px;
+	padding-bottom: 30px;
+  padding-left: 15px;
+	font-size: 24px;
+}
+
+#contactPage{
+	display: inline-block;
+}
+
+#submissionform{
+	float: left;
+	max-width: 60%;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	font-size: 15px;
+}
+
+#disclaimer{
+	padding-top: 200px;
+}
+
+.formLabel, #asterisk{
+	padding-left: 5px;
+}
+
+#newsletters{
+	padding-left: 50px;
+}
+
+#formCheckboxes{
+	padding-left: 30px;
+	padding-top: 5px;
 }
